@@ -1,16 +1,16 @@
 {
-  "name": "gulp-boilerplate",
-  "version": "1.1.0",
-  "description": "Gulp Boilerplate",
+  "name": "vue-js-search-protoryp",
+  "version": "1.0",
+  "description": "VueJs Search Prototype",
   "author": {
-    "name": "Fernando Moreira",
-    "email": "nandomoreira.me@gmail.com",
-    "url": "http://nandomoreira.me/"
+    "name": "Jacob Mallch",
+    "email": "jmallach@carrollu.edu",
+    "url": "https://carrollu.edu/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nandomoreirame/gulp-boilerplate.git"
+    "url": "https://github.com/CarrollUniversity/vuejs-search-prototype"
   },
   "eslintConfig": {
     "env": {

@@ -1,7 +1,5 @@
-Vue/Gulp Search Filter Prototype
+VueJS Search Prototype
 ================
-
-Enjoy! :smirk:
 
 ---
 
