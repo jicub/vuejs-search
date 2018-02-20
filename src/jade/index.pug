@@ -1,0 +1,20 @@
+extends layouts/default
+
+block content
+	div#app
+		<search></search>
+		div.nav
+			ul.cu-row
+				li.cu-col-xs-12.cu-col-sm-3
+					<router-link :class="{'router-link-active': $route.fullPath ==='/' || $route.fullPath === '/faculty'}" to="/faculty">Faculty &amp; Staff</router-link>
+				li.cu-col-xs-12.cu-col-sm-3
+					<router-link to="/departments">Departments</router-link>
+				li.cu-col-xs-12.cu-col-sm-3
+					<router-link to="/important-numbers">Important Numbers</router-link>
+				li.cu-col-xs-12.cu-col-sm-3
+					<router-link to="/all-listings">Search All</router-link>
+		//- Load Router
+		
+		<router-view></router-view>
+
+

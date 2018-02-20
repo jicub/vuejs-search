@@ -1,0 +1,79 @@
+[
+	{
+		"persons" : [
+			{
+				"dept" : "Financial Aid",
+				"statusType" : "Animaniacs",
+				"firstName" : "Pinky",
+				"lastName" :"The Mouse",
+				"tel" : "414-524-7364",
+				"email" : "pinky@themouse.com"
+			},
+			{
+				"dept" : "Academic Affairs",
+				"statusType" : "Staff",
+				"firstName" : "George",
+				"lastName" :"Washington",
+				"tel" : "523-524-7364",
+				"email" : "george@washington.com"
+			},
+			{
+				"dept" : "Admissions",
+				"firstName" : "Benjamin",
+				"lastName" :"Franklin",
+				"statusType" : "Admin",
+				"tel" : "608-524-7364",
+				"email" : "ben@franklin.com"
+			},
+			{
+				"dept" : "Alumni Engagement",
+				"firstName" : "John",
+				"lastName" :"Adams",
+				"tel" : "206-524-7364",
+				"statusType" : "Faculty",
+				"email" : "john@adams.com"
+			},
+			{
+				"dept" : "Marketing",
+				"statusType" : "Staff",
+				"firstName" : "Abraham",
+				"lastName" :"Lincoln",
+				"tel" : "414-524-7364",
+				"email" : "abe@lincoln.com"
+			}
+		],
+		"deptListings" : [
+			{
+				"dept" : "Academic Affairs",
+				"tel" : "262-524-7364",
+				"email" : "test@test.com",
+				"url" : "http://www.carrolu.edu/academics"
+			},
+			{
+				"dept" : "Admissions",
+				"tel" : "262-524-7364",
+				"email" : "test@test.com",
+				"url" : "http://www.carrolu.edu/prospective"
+			}
+		],
+		"primaryListings" : [
+			{
+				"dept" : "Wauwatosa Police Department",
+				"statusType" : "Emergency",
+				"tel" : "911"
+			},
+			{
+				"dept" : "Academic Affairs",
+				"statusType" : "General",
+				"tel" : "414-123-4567",
+				"url" : "http://www.carrolu.edu/academics"
+			},
+			{
+				"dept" : "Business Office",
+				"statusType" : "Popular",
+				"tel" : "608-123-4567",
+				"url" : "http://www.carrolu.edu/campus/businessoffice/"
+			}
+		]
+	}
+]
