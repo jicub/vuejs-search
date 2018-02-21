@@ -19,7 +19,7 @@ Vue.use(VueRouter);
 Vue.use(VueFilters);
 
 // Vue Configs
-Vue.http.options.root = '/vuejs-search-prototype';
+Vue.http.options.root = '/';
 Vue.http.headers.common['Authorization'] = 'Basic YXBpOnBhc3N3b3Jk';
 
 if (process.env.NODE_ENV === 'production') {
