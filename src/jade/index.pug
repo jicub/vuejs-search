@@ -1,17 +1,17 @@
 extends layouts/default
 
 block content
-	div#app
+	div#cu1846-search-app
 		<search></search>
-		div.nav
-			ul.cu-row
-				li.cu-col-xs-12.cu-col-sm-3
+		div.cu1846-nav
+			ul.cu1846-row
+				li.cu1846-col-xs-12.cu1846-col-sm-3
 					<router-link :class="{'router-link-active': $route.fullPath ==='/' || $route.fullPath === '/faculty'}" to="/faculty">Faculty &amp; Staff</router-link>
-				li.cu-col-xs-12.cu-col-sm-3
+				li.cu1846-col-xs-12.cu1846-col-sm-3
 					<router-link to="/departments">Departments</router-link>
-				li.cu-col-xs-12.cu-col-sm-3
+				li.cu1846-col-xs-12.cu1846-col-sm-3
 					<router-link to="/important-numbers">Important Numbers</router-link>
-				li.cu-col-xs-12.cu-col-sm-3
+				li.cu1846-col-xs-12.cu1846-col-sm-3
 					<router-link to="/all-listings">Search All</router-link>
 		//- Load Router
 		

@@ -58,7 +58,7 @@ var router = new VueRouter({
 var app = new Vue({
   router: router,
   store: vueStore
-}).$mount('#app');
+}).$mount('#cu1846-search-app');
 
 
 

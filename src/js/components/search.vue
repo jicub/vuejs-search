@@ -1,7 +1,7 @@
 
 <!-- Search -->
 <template lang="pug">
-	div.search
+	div.cu1846-vuejs-search
 		input(type='text' :placeholder='placeholder' v-on:keyup='trackInput' v-model='search')
 </template>
 
@@ -34,7 +34,7 @@
 <style lang="sass" scoped>
 	@import '../../sass/_variables.scss';
 
-	.search {
+	.cu1846-vuejs-search {
 		width: 100%;
 
 		h1 {

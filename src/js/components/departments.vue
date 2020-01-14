@@ -1,7 +1,7 @@
 
 <!-- Department Listings -->
 <template lang="pug">
-	div.content
+	div.cu1846-vuejs-content
 		h2 Departments
 		template(v-for="item in foundListingItems" v-if="foundListingItems.length > 0")
 			ul.item

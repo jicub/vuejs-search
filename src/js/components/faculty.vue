@@ -1,6 +1,6 @@
 <!-- Faculty and Staff -->
 <template lang="pug">
-	div.content
+	div.cu1846-vuejs-content
 		//- input(type='text' placeholder='Search' v-model='search')
 		//- {{search}}
 		h2 Faculty &amp; Staff

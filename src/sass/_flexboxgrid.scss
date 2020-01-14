@@ -26,20 +26,20 @@ $flexboxgrid-max-width: 1200px !default;
 $gutter-compensation: $gutter-width * .5 * -1;
 $half-gutter-width: $gutter-width * .5;
 
-.cu-wrapper {
+.cu1846-wrapper {
   box-sizing: border-box;
   max-width: $flexboxgrid-max-width;
   margin: 0 auto;
 }
 
-.cu-container-fluid {
+.cu1846-container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-right: $outer-margin;
   padding-left: $outer-margin;
 }
 
-.cu-row {
+.cu1846-row {
   box-sizing: border-box;
   @include flexbox();
   @include flex(0, 1, auto);
@@ -49,11 +49,11 @@ $half-gutter-width: $gutter-width * .5;
   margin-left: $gutter-compensation;
 }
 
-.cu-row.cu-reverse {
+.cu1846-row.cu1846-vuejs-reverse {
   @include flex-direction(row-reverse);
 }
 
-.cu-col.cu-reverse {
+.cu1846-col.cu1846-reverse {
   @include flex-direction(column-reverse);
 }
 
@@ -73,19 +73,19 @@ $half-gutter-width: $gutter-width * .5;
 }
 
 $name: xs;
-.cu-col-#{$name} {
+.cu1846-col-#{$name} {
   @include flexboxgrid-sass-col-common;
   @include flex-basis(auto);
 }
 @for $i from 1 through $grid-columns {
-  .cu-col-#{$name}-#{$i} {
+  .cu1846-col-#{$name}-#{$i} {
     @include flexboxgrid-sass-col-common;
     @include flex-basis(100% / $grid-columns * $i);
     max-width: 100% / $grid-columns * $i;
   }
 }
 @for $i from 0 through $grid-columns {
-  .cu-col-#{$name}-offset-#{$i} {
+  .cu1846-col-#{$name}-offset-#{$i} {
     @include flexboxgrid-sass-col-common;
     @if $i == 0 {
       margin-left: 0;
@@ -94,51 +94,51 @@ $name: xs;
     }
   }
 }
-.cu-col-#{$name} {
+.cu1846-col-#{$name} {
   @include flex-grow(1);
   @include flex-basis(0);
   max-width: 100%;
 }
-.cu-start-#{$name} {
+.cu1846-start-#{$name} {
   @include justify-content(flex-start);
   text-align: start;
 }
 
-.cu-center-#{$name} {
+.cu1846-center-#{$name} {
   @include justify-content(center);
   text-align: center;
 }
 
-.cu-end-#{$name} {
+.cu1846-end-#{$name} {
   @include justify-content(flex-end);
   text-align: end;
 }
 
-.cu-top-#{$name} {
+.cu1846-top-#{$name} {
   @include align-items(flex-start);
 }
 
-.cu-middle-#{$name} {
+.cu1846-middle-#{$name} {
   @include align-items(center);
 }
 
-.cu-bottom-#{$name} {
+.cu1846-bottom-#{$name} {
   @include align-items(flex-end);
 }
 
-.cu-around-#{$name} {
+.cu1846-around-#{$name} {
   @include justify-content(space-around);
 }
 
-.cu-between-#{$name} {
+.cu1846-between-#{$name} {
   @include justify-content(space-between);
 }
 
-.cu-first-#{$name} {
+.cu1846-first-#{$name} {
   order: -1;
 }
 
-.cu-last-#{$name} {
+.cu1846-last-#{$name} {
   order: 1;
 }
 
@@ -148,23 +148,23 @@ $name: xs;
   $size: nth($breakpoint, 2);
   $container: nth($breakpoint, 3);
   @media only screen and (min-width: $size) {
-    .cu-container {
+    .cu1846-container {
       width: $container;
     }
 
-    .cu-col-#{$name} {
+    .cu1846-col-#{$name} {
       @include flexboxgrid-sass-col-common;
       @include flex-basis(auto);
     }
     @for $i from 1 through $grid-columns {
-      .cu-col-#{$name}-#{$i} {
+      .cu1846-col-#{$name}-#{$i} {
         @include flexboxgrid-sass-col-common;
         @include flex-basis(100% / $grid-columns * $i);
         max-width: 100% / $grid-columns * $i;
       }
     }
     @for $i from 0 through $grid-columns {
-      .cu-col-#{$name}-offset-#{$i} {
+      .cu1846-col-#{$name}-offset-#{$i} {
         @include flexboxgrid-sass-col-common;
         @if $i == 0 {
           margin-left: 0;
@@ -173,51 +173,51 @@ $name: xs;
         }
       }
     }
-    .cu-col-#{$name} {
+    .cu1846-col-#{$name} {
       @include flex-grow(1);
       @include flex-basis(0);
       max-width: 100%;
     }
-    .cu-start-#{$name} {
+    .cu1846-start-#{$name} {
       @include justify-content(flex-start);
       text-align: start;
     }
 
-    .cu-center-#{$name} {
+    .cu1846-center-#{$name} {
       @include justify-content(center);
       text-align: center;
     }
 
-    .cu-end-#{$name} {
+    .cu1846-end-#{$name} {
       @include justify-content(flex-end);
       text-align: end;
     }
 
-    .cu-top-#{$name} {
+    .cu1846-top-#{$name} {
       @include align-items(flex-start);
     }
 
-    .cu-middle-#{$name} {
+    .cu1846-middle-#{$name} {
       @include align-items(center);
     }
 
-    .cu-bottom-#{$name} {
+    .cu1846-bottom-#{$name} {
       @include align-items(flex-end);
     }
 
-    .cu-around-#{$name} {
+    .cu1846-around-#{$name} {
       @include justify-content(space-around);
     }
 
-    .cu-between-#{$name} {
+    .cu1846-between-#{$name} {
       @include justify-content(space-between);
     }
 
-    .cu-first-#{$name} {
+    .cu1846-first-#{$name} {
       order: -1;
     }
 
-    .cu-last-#{$name} {
+    .cu1846-last-#{$name} {
       order: 1;
     }
   }
