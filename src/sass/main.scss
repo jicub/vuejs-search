@@ -14,15 +14,24 @@
 // http://compass-style.org/
 //
 // $ sudo gem install sass compass
+// rvm use 2.4
+// gem pristine --all
+// gem install bundler -v 2.0.2
+// bundle install
 //
 
-@import "compass/css3";
-@import "compass/utilities";
-@import "_variables";
-@import "_mixins";
-@import "_flexboxgrid";
 
-@import "_placeholders";
-@import "_normalize";
-@import "_globals";
-@import "_grid";
+#cu1846-search-app {
+
+	@import "compass/css3";
+	@import "compass/utilities";
+	@import "_variables";
+	@import "_mixins";
+	@import "_flexboxgrid";
+
+	@import "_placeholders";
+	@import "_normalize";
+	@import "_globals";
+	@import "_grid";
+
+}
