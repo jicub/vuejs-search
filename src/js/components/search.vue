@@ -33,24 +33,20 @@
 
 <style lang="sass" scoped>
 	@import '../../sass/_variables.scss';
+	& {
+		.cu1846-vuejs-search {
+			width: 100%;
 
-	.cu1846-vuejs-search {
-		width: 100%;
+			input {
+				width: 95%;
+				margin:20px 0;
+				padding:10px 2.5%;
+			}
 
-		h1 {
-			color:$cu-gray;
-			font-size:25px;
-		}
-
-		input {
-			width: 95%;
-			margin:20px 0;
-			padding:10px 2.5%;
-		}
-
-		p {
-			padding:0 0 10px 0;
-			margin:0;
+			p {
+				padding:0 0 10px 0;
+				margin:0;
+			}
 		}
 	}
 </style>
