@@ -33,7 +33,7 @@
 
 <style lang="sass" scoped>
 	@import '../../sass/_variables.scss';
-	& {
+	
 		.cu1846-vuejs-search {
 			width: 100%;
 
@@ -48,5 +48,5 @@
 				margin:0;
 			}
 		}
-	}
+	
 </style>
